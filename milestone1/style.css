@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume {
+    display: flex;
+    background-color: gray;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    margin-top: 15%;
+    border-radius: 90%;
+    border: 5px solid black;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.left-side {
+    background-color: rgb(61, 58, 58);
+    color: white;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    border-right: 5px solid;
+}
+
+.right-side {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: rgb(87, 86, 86);
+}
+
+button:hover {
+    background-color: rgb(61, 58, 58);
+}
