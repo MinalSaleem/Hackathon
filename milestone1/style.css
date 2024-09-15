@@ -70,3 +70,55 @@ button {
 button:hover {
     background-color: rgb(61, 58, 58);
 }
+
+@media screen and (max-width: 768px) {
+    .resume {
+        flex-direction: column;
+        width: 90%; 
+        padding: 10px;
+    }
+
+    .left-side, .right-side {
+        width: 100%; 
+        padding: 10px;
+        text-align: center;
+    }
+
+    .profile-pic {
+        margin-top: 10px;
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 22px; 
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .profile-pic {
+        width: 80px; 
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
