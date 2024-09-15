@@ -1,11 +1,8 @@
-/* Default desktop styles */
-
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
     margin: 0;
-    padding: 150px;
-    box-sizing: border-box;
+    padding: 0; /* Removed the padding here for better mobile behavior */
 }
 
 .resume {
@@ -13,37 +10,32 @@ body {
     background-color: gray;
     width: 80%;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 11px;
     box-shadow: 0 0 10px black;
-    box-sizing: border-box;
+    padding: 20px; /* Adjusted padding for better spacing */
 }
 
 .profile-pic {
     width: 150px;
     height: 150px;
-    margin-top: 15%;
-    border-radius: 90%;
+    border-radius: 50%; /* Simplified border-radius */
     border: 5px solid black;
     margin-bottom: 20px;
-    box-sizing: border-box;
 }
 
 h1 {
     font-size: 25px;
     margin: 10px 0;
-    margin-bottom: 30px;
     text-align: center;
 }
 
 h3 {
     font-size: 18px;
-    padding: 2%;
-    margin: 20px 0 10px;
+    padding: 10px; /* Adjusted padding for better spacing */
     color: black;
     border-radius: 10px;
     box-shadow: 0 0 15px black;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 10px 0; /* Adjusted margins for better spacing */
 }
 
 .left-side {
@@ -52,14 +44,12 @@ h3 {
     padding: 20px;
     width: 25%;
     text-align: center;
-    border-right: 5px solid;
-    box-sizing: border-box;
+    border-right: 5px solid black;
 }
 
 .right-side {
     padding: 20px;
-    width: 65%;
-    box-sizing: border-box;
+    width: 75%; /* Adjusted width for better balance */
 }
 
 button {
@@ -78,28 +68,26 @@ button:hover {
     background-color: rgb(61, 58, 58);
 }
 
-/* Mobile styles */
 @media screen and (max-width: 768px) {
     .resume {
-        flex-direction: column; /* Stack the sections vertically */
-        width: 90%; /* Adjust the width to fit mobile screens */
+        flex-direction: column;
+        width: 90%; 
         padding: 10px;
     }
 
     .left-side, .right-side {
-        width: 100%; /* Full width on mobile */
+        width: 100%; 
         padding: 10px;
-        text-align: center; /* Center the text on smaller screens */
+        text-align: center;
     }
 
     .profile-pic {
-        margin-top: 10px;
-        width: 100px; /* Smaller profile picture */
+        width: 100px;
         height: 100px;
     }
 
     h1 {
-        font-size: 22px; /* Adjust font size */
+        font-size: 22px; 
     }
 
     h3 {
@@ -107,15 +95,15 @@ button:hover {
     }
 
     button {
-        width: 100%; /* Full-width button for mobile */
+        width: 100%;
         padding: 10px;
+        font-size: 16px;
     }
 }
 
-/* Extra small devices (like phones in portrait) */
 @media screen and (max-width: 480px) {
     .profile-pic {
-        width: 80px; /* Smaller profile pic for very small screens */
+        width: 80px; 
         height: 80px;
     }
 
