@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
     margin: 0;
-    padding: 0; /* Removed the padding here for better mobile behavior */
+    padding: 0; 
 }
 
 .resume {
@@ -12,13 +12,13 @@ body {
     margin: 0 auto;
     border-radius: 11px;
     box-shadow: 0 0 10px black;
-    padding: 20px; /* Adjusted padding for better spacing */
+    padding: 20px;
 }
 
 .profile-pic {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Simplified border-radius */
+    border-radius: 50%; 
     border: 5px solid black;
     margin-bottom: 20px;
 }
@@ -31,11 +31,11 @@ h1 {
 
 h3 {
     font-size: 18px;
-    padding: 10px; /* Adjusted padding for better spacing */
+    padding: 10px;
     color: black;
     border-radius: 10px;
     box-shadow: 0 0 15px black;
-    margin: 10px 0; /* Adjusted margins for better spacing */
+    margin: 10px 0; 
 }
 
 .left-side {
@@ -49,7 +49,7 @@ h3 {
 
 .right-side {
     padding: 20px;
-    width: 75%; /* Adjusted width for better balance */
+    width: 75%; 
 }
 
 button {
