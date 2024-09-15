@@ -1,8 +1,11 @@
+/* Default desktop styles */
+
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
     margin: 0;
     padding: 150px;
+    box-sizing: border-box;
 }
 
 .resume {
@@ -10,8 +13,9 @@ body {
     background-color: gray;
     width: 80%;
     margin: 0 auto;
-    border-radius: 11px;
+    border-radius: 10px;
     box-shadow: 0 0 10px black;
+    box-sizing: border-box;
 }
 
 .profile-pic {
@@ -21,6 +25,7 @@ body {
     border-radius: 90%;
     border: 5px solid black;
     margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -48,11 +53,13 @@ h3 {
     width: 25%;
     text-align: center;
     border-right: 5px solid;
+    box-sizing: border-box;
 }
 
 .right-side {
     padding: 20px;
     width: 65%;
+    box-sizing: border-box;
 }
 
 button {
@@ -71,27 +78,28 @@ button:hover {
     background-color: rgb(61, 58, 58);
 }
 
+/* Mobile styles */
 @media screen and (max-width: 768px) {
     .resume {
-        flex-direction: column;
-        width: 90%; 
+        flex-direction: column; /* Stack the sections vertically */
+        width: 90%; /* Adjust the width to fit mobile screens */
         padding: 10px;
     }
 
     .left-side, .right-side {
-        width: 100%; 
+        width: 100%; /* Full width on mobile */
         padding: 10px;
-        text-align: center;
+        text-align: center; /* Center the text on smaller screens */
     }
 
     .profile-pic {
         margin-top: 10px;
-        width: 100px;
+        width: 100px; /* Smaller profile picture */
         height: 100px;
     }
 
     h1 {
-        font-size: 22px; 
+        font-size: 22px; /* Adjust font size */
     }
 
     h3 {
@@ -99,14 +107,15 @@ button:hover {
     }
 
     button {
-        width: 100%;
+        width: 100%; /* Full-width button for mobile */
         padding: 10px;
     }
 }
 
+/* Extra small devices (like phones in portrait) */
 @media screen and (max-width: 480px) {
     .profile-pic {
-        width: 80px; 
+        width: 80px; /* Smaller profile pic for very small screens */
         height: 80px;
     }
 
